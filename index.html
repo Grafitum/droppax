@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Droppax</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="imagem/logo.jpg" alt="Logo Droppax" class="logo-image">
+            <span class="logo-text">Droppax</span>
+        </div>
+        <div class="welcome-message">
+            <img src="welcome.png" alt="Seja Bem Vindo" class="welcome-image">
+            <p>Seja Bem Vindo! 😊</p>
+        </div>
+        <form class="login-form">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Digite seu email" required>
+            </div>
+            <div class="form-group password-container">
+                <label for="password">Senha</label>
+                <input type="password" id="password" placeholder="Digite sua senha" required>
+                <button type="button" id="show-password" class="show-password-button">
+                    <i class="fa-solid fa-eye"></i>
+                </button>
+            </div>
+            <button type="submit" class="submit-button" href="pg.html">Acessar</button>
+            <p class="forgot-password">Esqueceu sua senha? <a href="pg.html">Clique aqui</a></p>
+        </form>
+    </div>
+    <footer> 
+        <div class="cookie-banner" id="cookie-banner">
+            Este site usa cookies para melhorar sua experiência. <a href="#">Política de Privacidade</a>
+            <button id="accept-cookies">Aceitar</button>
+            <button id="decline-cookies">Recusar</button>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
